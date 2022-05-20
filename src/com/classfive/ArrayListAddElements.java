@@ -25,8 +25,10 @@ public class ArrayListAddElements {
 		// Adding second list elements to the first list
 		al.addAll(al2);
 		System.out.println("After invoking addAll(Collection<? extends E> c) method: " + al);
+		
+		
 		ArrayList<String> al3 = new ArrayList<String>();
-		al3.add("John");
+		al3.add("RRR");
 		al3.add("Rahul");
 		// Adding second list elements to the first list at specific position
 		al.addAll(1, al3);

@@ -12,8 +12,9 @@ public class HashSetClass {
 		  
 		  set.add("Ravi");  
 		  set.add("Vijay");  
-		  set.add("Ravis");  
-		  set.add("Ajay"); 
+		  set.add("Ravi");  
+		  set.add("Ajay");
+		  set.add("Jasmin");
 		  
 		  //Traversing elements  
 		  Iterator<String> itr=set.iterator();  

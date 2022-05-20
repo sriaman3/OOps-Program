@@ -11,10 +11,10 @@ public class FinalClass {
 
 class Bike9 {
 	
-	 int speedlimit = 90;// final variable
+	 final int speedlimit = 90;// final variable
 
 	void run() {
-		speedlimit = 400;
+		//speedlimit = 400;
 		System.out.println(speedlimit);
 	}
 }

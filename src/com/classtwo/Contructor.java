@@ -20,7 +20,7 @@ class GFG {
     String name;
     int id;
     
-    GFG(){
+     GFG(){
     	System.out.println("I am non-parametrized constructor");
     }
  

@@ -7,7 +7,7 @@ public class ArrayClasses {
 	      int[] arr;
 	         
 	      // allocating memory for 5 integers.
-	      arr = new int[5];
+	      arr = new int[6];
 	         
 	      // initialize the first elements of the array
 	      arr[0] = 10;
@@ -19,7 +19,9 @@ public class ArrayClasses {
 	      arr[2] = 30;
 	      arr[3] = 40;
 	      arr[4] = 50;
+	      arr[5] =60;
 	         
+	      //1 D
 	      // accessing the elements of the specified array
 	      for (int i = 0; i < arr.length; i++)
 	         System.out.println("Element at index " + i +

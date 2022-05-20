@@ -20,5 +20,5 @@ public class ForLoopClass {
 			 }  
 			 	System.out.println();//new line  
 			}  
-	}
+	}   
 }

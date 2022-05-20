@@ -29,8 +29,8 @@ public class ArrayListRemoveElements {
 		// Removing all the new elements from arraylist
 		al.clear();
 		System.out.println("After invoking removeAll() method: " + al);
-		//al.removeAll(al);
+		al.removeAll(al);
 		System.out.println("After invoking clear() method: " + al);
 	}
 
-}
+} 

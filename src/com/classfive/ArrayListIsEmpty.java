@@ -7,6 +7,7 @@ public class ArrayListIsEmpty {
 		
 		ArrayList<String> al = new ArrayList<String>();
 		System.out.println("Is ArrayList Empty: " + al.isEmpty());
+		System.out.println(!al.isEmpty());
 		
 		if(!al.isEmpty()) {
 			al.add("Ravi");

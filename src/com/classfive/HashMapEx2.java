@@ -29,6 +29,7 @@ public class HashMapEx2 {
 		for (Map.Entry m : hm.entrySet()) {
 			System.out.println(m.getKey() + " " + m.getValue());
 		}
+		
 		HashMap<Integer, String> map = new HashMap<Integer, String>();
 		map.put(104, "Ravi");
 		map.putAll(hm);

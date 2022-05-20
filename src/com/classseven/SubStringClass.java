@@ -3,14 +3,14 @@ package com.classseven;
 public class SubStringClass {
 
 	public static void main(String[] args) {
-			SubStringClass.idexOfMethod();
-		/*
-		 * String s="SachinTendulkar"; System.out.println("Original String: " + s);
-		 * System.out.println("Substring starting from index 6: "
-		 * +s.substring(6));//Tendulkar
-		 * System.out.println("Substring starting from index 0 to 6: "+s.substring(0,6))
-		 * ; //Sachin
-		 */	}
+			SubStringClass.splitMethod();
+			
+			
+			  String s="SachinTendulkar"; 
+			  System.out.println("Original String: " + s);
+			  System.out.println("Substring starting from index 6: "+s.substring(6));//Tendulkar
+			  System.out.println("Substring starting from index 0 to 6: "+s.substring(0,6)); //Sachin
+			}
 	
 	static void charAtMethod() {
 		String name="javatpoint";  
@@ -19,8 +19,8 @@ public class SubStringClass {
 	}
 	
 	static void idexOfMethod() {
-		String name="javatpoint";  
-		//int ch=name.indexOf('a',3);//returns exact index of the char value 
+		String name="javatpoiat";  
+		//int ch=name.indexOf('a',4);//returns exact index of the char value 
 		int ch = name.indexOf("po", 1);
 		System.out.println(ch);  
 	}
@@ -55,13 +55,13 @@ public class SubStringClass {
 		
 		
 		for(int i=0;i<words.length;i++) {
-			//System.out.println(words[i]);
+			System.out.println(words[i]);
 		}
 		
 		//using java foreach loop to print elements of string array  
-		for(String w:words){  
-			System.out.println(w);  
-		}  
+		/*
+		 * for(String w:words){ System.out.println(w); }
+		 */ 
 	}
 
 }

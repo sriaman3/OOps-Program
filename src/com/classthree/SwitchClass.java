@@ -4,7 +4,7 @@ public class SwitchClass {
 
 	public static void main(String[] args) {
 		
-		int n =10, m=6;
+		int n=10, m=6;
 		
 		switch (n) {
 		case 10:

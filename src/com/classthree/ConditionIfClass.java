@@ -5,7 +5,7 @@ public class ConditionIfClass {
 	public static void main(String[] args) {
 		//ConditionIfClass.checkNumberEvenOdd();
 		ConditionIfClass.IfElseIfExample();
-		int age=25;  
+		int age=5;  
 	    //checking the age  
 	    if(age>18){  
 	        System.out.print("Age is greater than 18");  
@@ -15,7 +15,7 @@ public class ConditionIfClass {
 	}
 	
 	static void checkNumberEvenOdd() {
-		 int number=2; 
+		 int number=3; 
 		 
 		 if(number%2==0){  
 		        System.out.println("even number");  
@@ -25,7 +25,7 @@ public class ConditionIfClass {
 	   }
 	
 	static void IfElseIfExample () {
-		 int marks=665;  
+		 int marks=615;  
 	      
 		    if(marks<50){  
 		        System.out.println("fail");  
